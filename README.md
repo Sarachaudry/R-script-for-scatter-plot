@@ -3,7 +3,7 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 # Set working directory
-setwd("/scratch/99999/ha20be/Akram_Basslab_PhD_HiC_analyses_revised/EigenFiles_Compare_JuicevsCScoreTool")
+setwd("/scratch/99999/ha20be/Akram_Basslab_revised/EigenFiles_Compare_JuicevsCScoreTool")
 # Read bedGraph files
 IS_1kb <- read.table("fanc_RTallBRs_IS_1kb_2.5mbW.bedGraph", header = FALSE)
 early <- read.table("E_ratio_2.smooth.1kbp.sorted.bedgraph", header = FALSE)
